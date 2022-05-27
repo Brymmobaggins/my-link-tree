@@ -43,15 +43,15 @@ h2 {
 .container a {
   text-decoration: none;
   border: 0.25px solid beige;
-  width: 30%;
+  width: 50%;
   margin-top: 15px;
 }
 .fa {
   line-height: 20px;
-  font-size: 35px;
+  font-size: 30px;
   padding: 15px 0px;
 }
-.fa:hover {
+a:hover {
   cursor: pointer;
   opacity: 0.8;
 }
