@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-color: #30343f;
+  --ft-color: #f8edeb;
+  --ft-family: "Boogaloo", "cursive";
+}
+html {
+  font-family: var(--ft-family);
+  letter-spacing: 1px;
+}
+body {
+  background-color: var(--bg-color);
+  text-align: center;
+  color: var(--ft-color);
+}
+.bio {
+  padding: 25px 0px;
+}
+h2 {
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+/* styling the image */
+.bio {
+  width: 100%;
+}
+.bio img {
+  width: 10%;
+  height: 150px;
+  border-radius: 50%;
+  padding: 2px;
+}
+.bio-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container a {
+  text-decoration: none;
+  border: 0.25px solid beige;
+  width: 30%;
+  margin-top: 15px;
+}
+.fa {
+  line-height: 20px;
+  font-size: 35px;
+  padding: 15px 0px;
+}
+.fa:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* styling the social network */
+.fa-twitter {
+  color: #55acee;
+}
+.fa-linkedin {
+  color: #007bb5;
+}
+.fa-github {
+  color: #e2d0d0;
+}
