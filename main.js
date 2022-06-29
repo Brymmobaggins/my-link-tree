@@ -15,7 +15,7 @@ svgImg.onclick = function () {
         sun.classList.add("hide")
         document.body.classList.remove("dark")
     } else {
-        return;
+        return
     }
 }
 // Store the mode on local storage
